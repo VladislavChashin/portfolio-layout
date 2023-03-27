@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './sourse/fonts/stylesheets.css';
+import './sourse/fonts/stylesheet.css';
 import './sourse/style/reset.css';
+import './sourse/style/aboutMe.scss';
+import './sourse/style/aboveAll.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
