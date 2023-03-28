@@ -1,5 +1,6 @@
 import './sourse/style/App.scss'
 import AboveAll from "./components/header/aboveAll";
+import AboutMe from './components/header/aboutMe';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <span></span>
       <header>
         <AboveAll/>
+        <AboutMe/>
       </header>
       <main></main>
       <footer></footer>
