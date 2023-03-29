@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VladislavChashin/portfolio-layout/static/css/main.d3a4f69f.css",
+    "main.css": "/VladislavChashin/portfolio-layout/static/css/main.f731e095.css",
     "main.js": "/VladislavChashin/portfolio-layout/static/js/main.25d5ddd8.js",
     "static/js/787.6f5cdfff.chunk.js": "/VladislavChashin/portfolio-layout/static/js/787.6f5cdfff.chunk.js",
     "static/media/SFUIText-Light.ttf": "/VladislavChashin/portfolio-layout/static/media/SFUIText-Light.50a2235d5523a8194f4e.ttf",
@@ -16,12 +16,12 @@
     "static/media/Vector.svg": "/VladislavChashin/portfolio-layout/static/media/Vector.61693263e6dd4bff0b4f9b550cf117a7.svg",
     "index.html": "/VladislavChashin/portfolio-layout/index.html",
     "static/media/strelka.svg": "/VladislavChashin/portfolio-layout/static/media/strelka.d38a0bad050bbf3f8fec16c35db71333.svg",
-    "main.d3a4f69f.css.map": "/VladislavChashin/portfolio-layout/static/css/main.d3a4f69f.css.map",
+    "main.f731e095.css.map": "/VladislavChashin/portfolio-layout/static/css/main.f731e095.css.map",
     "main.25d5ddd8.js.map": "/VladislavChashin/portfolio-layout/static/js/main.25d5ddd8.js.map",
     "787.6f5cdfff.chunk.js.map": "/VladislavChashin/portfolio-layout/static/js/787.6f5cdfff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3a4f69f.css",
+    "static/css/main.f731e095.css",
     "static/js/main.25d5ddd8.js"
   ]
 }
