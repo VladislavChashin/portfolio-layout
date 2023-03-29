@@ -4,8 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './sourse/fonts/stylesheet.css';
 import './sourse/style/reset.css';
-import './sourse/style/aboutMe.scss';
-import './sourse/style/aboveAll.scss';
+import './sourse/style/aboutMe.css';
+import './sourse/style/aboveAll.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

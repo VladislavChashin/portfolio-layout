@@ -1,4 +1,4 @@
-import './sourse/style/App.scss'
+import './sourse/style/App.css'
 import AboveAll from "./components/header/aboveAll";
 import AboutMe from './components/header/aboutMe';
 
