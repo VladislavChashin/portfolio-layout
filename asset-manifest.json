@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-layout/static/css/main.18692591.css",
-    "main.js": "/portfolio-layout/static/js/main.f8fecedd.js",
-    "static/js/787.6f5cdfff.chunk.js": "/portfolio-layout/static/js/787.6f5cdfff.chunk.js",
-    "static/media/SFUIText-Light.ttf": "/portfolio-layout/static/media/SFUIText-Light.50a2235d5523a8194f4e.ttf",
-    "static/media/SFUIText-Regular.ttf": "/portfolio-layout/static/media/SFUIText-Regular.96141c83bd71d7cccb63.ttf",
-    "static/media/SFUIText-LightItalic.ttf": "/portfolio-layout/static/media/SFUIText-LightItalic.bf04b5dc69b66c87e173.ttf",
-    "static/media/body.svg": "/portfolio-layout/static/media/body.04a7bc103c213da6535303ebe34832f9.svg",
-    "static/media/head.svg": "/portfolio-layout/static/media/head.94bf1e21a4a0e88423b2275f9942bb8d.svg",
-    "static/media/SFProDisplay-Semibold.woff2": "/portfolio-layout/static/media/SFProDisplay-Semibold.3926eb65ce4420a81930.woff2",
-    "static/media/SFProDisplay-Bold.woff2": "/portfolio-layout/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
-    "static/media/SFProDisplay-Regular.woff2": "/portfolio-layout/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
-    "static/media/cy-grotesk-grand-dark.otf": "/portfolio-layout/static/media/cy-grotesk-grand-dark.b3df9f9044ed77ae778e.otf",
-    "static/media/Vector1.svg": "/portfolio-layout/static/media/Vector1.c0308e6898654e6808b9e8b0db9cc995.svg",
-    "static/media/Vector.svg": "/portfolio-layout/static/media/Vector.61693263e6dd4bff0b4f9b550cf117a7.svg",
-    "index.html": "/portfolio-layout/index.html",
-    "static/media/strelka.svg": "/portfolio-layout/static/media/strelka.d38a0bad050bbf3f8fec16c35db71333.svg",
-    "main.18692591.css.map": "/portfolio-layout/static/css/main.18692591.css.map",
-    "main.f8fecedd.js.map": "/portfolio-layout/static/js/main.f8fecedd.js.map",
-    "787.6f5cdfff.chunk.js.map": "/portfolio-layout/static/js/787.6f5cdfff.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.b7a736cb.css",
+    "main.js": "/portfolio/static/js/main.bf51b4db.js",
+    "static/js/787.6f5cdfff.chunk.js": "/portfolio/static/js/787.6f5cdfff.chunk.js",
+    "static/media/SFUIText-Light.ttf": "/portfolio/static/media/SFUIText-Light.50a2235d5523a8194f4e.ttf",
+    "static/media/SFUIText-Regular.ttf": "/portfolio/static/media/SFUIText-Regular.96141c83bd71d7cccb63.ttf",
+    "static/media/SFUIText-LightItalic.ttf": "/portfolio/static/media/SFUIText-LightItalic.bf04b5dc69b66c87e173.ttf",
+    "static/media/body.svg": "/portfolio/static/media/body.04a7bc103c213da6535303ebe34832f9.svg",
+    "static/media/head.svg": "/portfolio/static/media/head.94bf1e21a4a0e88423b2275f9942bb8d.svg",
+    "static/media/SFProDisplay-Semibold.woff2": "/portfolio/static/media/SFProDisplay-Semibold.3926eb65ce4420a81930.woff2",
+    "static/media/SFProDisplay-Bold.woff2": "/portfolio/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
+    "static/media/SFProDisplay-Regular.woff2": "/portfolio/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
+    "static/media/cy-grotesk-grand-dark.otf": "/portfolio/static/media/cy-grotesk-grand-dark.b3df9f9044ed77ae778e.otf",
+    "static/media/Vector1.svg": "/portfolio/static/media/Vector1.c0308e6898654e6808b9e8b0db9cc995.svg",
+    "static/media/Vector.svg": "/portfolio/static/media/Vector.61693263e6dd4bff0b4f9b550cf117a7.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/strelka.svg": "/portfolio/static/media/strelka.d38a0bad050bbf3f8fec16c35db71333.svg",
+    "main.b7a736cb.css.map": "/portfolio/static/css/main.b7a736cb.css.map",
+    "main.bf51b4db.js.map": "/portfolio/static/js/main.bf51b4db.js.map",
+    "787.6f5cdfff.chunk.js.map": "/portfolio/static/js/787.6f5cdfff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18692591.css",
-    "static/js/main.f8fecedd.js"
+    "static/css/main.b7a736cb.css",
+    "static/js/main.bf51b4db.js"
   ]
 }
