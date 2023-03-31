@@ -11,8 +11,10 @@ function App() {
     <span></span>
     <span></span>
       <header>
-        <AboveAll/>
-        <AboutMe/>
+        <div className="header_content">
+          <AboveAll/> 
+          <AboutMe/>
+        </div>
       </header>
       <main>
         <MyWorks/>

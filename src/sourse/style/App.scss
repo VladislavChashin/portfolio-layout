@@ -1,14 +1,13 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: #F5F9FF;
     backdrop-filter: blur(20px);
     
 }
 #root{
-    margin: 20px;
     position: relative;
     z-index: 1;
+    background: #141D2B;
     span{
         position: absolute;
         display: block;
@@ -59,10 +58,18 @@ body{
     }
 }
 
-header, main, footer{
+main, footer{
     max-width: 1240px;
     margin: 0 auto;
 }
 main{
     background: #141D2B;
+}
+header{
+    width: 100%;
+    background: #F5F9FF;
+    .header_content{
+        max-width: 1240px;
+        margin: 0 auto;
+    }
 }
