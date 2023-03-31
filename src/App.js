@@ -1,6 +1,7 @@
 import './sourse/style/App.scss'
 import AboveAll from "./components/header/aboveAll";
 import AboutMe from './components/header/aboutMe';
+import MyWorks from './components/main/myWorks';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <AboveAll/>
         <AboutMe/>
       </header>
-      <main></main>
+      <main>
+        <MyWorks/>
+      </main>
       <footer></footer>
     </>
   );

@@ -6,6 +6,7 @@ import './sourse/fonts/stylesheet.css';
 import './sourse/style/reset.css';
 import './sourse/style/aboutMe.scss';
 import './sourse/style/aboveAll.scss';
+import './sourse/style/myWorks.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
