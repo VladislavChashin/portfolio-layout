@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1260px;
-    margin: 0 auto;
+    margin: 169px auto 0;
     @media(max-width: 1212px){
         justify-content: center;
         margin: 0 10px;
@@ -61,6 +61,9 @@
                 @media(max-width:768px){
                     font-size: 9px;
                     padding: 6px 13px;
+                }
+                @media(max-width:425px){
+                    padding: 4px 8px;
                 }
             }
             div{
