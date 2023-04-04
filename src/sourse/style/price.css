@@ -1,0 +1,179 @@
+.price {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+@media (max-width: 1212px) {
+  .price {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 10px;
+  }
+}
+.price .price_text-wrap {
+  position: relative;
+  width: 90vw;
+}
+.price .price_text-wrap .text-wrap_text {
+  font-family: "SFUIText-Light";
+  font-size: 72px;
+  line-height: 86px;
+  color: #F5F9FF;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 150px;
+}
+@media (max-width: 1212px) {
+  .price .price_text-wrap .text-wrap_text {
+    margin: 150px 0;
+  }
+}
+@media (max-width: 1024px) {
+  .price .price_text-wrap .text-wrap_text {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .price .price_text-wrap .text-wrap_text {
+    font-size: 50px;
+  }
+}
+@media (max-width: 504px) {
+  .price .price_text-wrap .text-wrap_text {
+    font-size: 48px;
+    margin: 70px 0;
+  }
+}
+@media (max-width: 425px) {
+  .price .price_text-wrap .text-wrap_text {
+    font-size: 36px;
+    margin: 50px 0;
+  }
+}
+.price .price_text-wrap .text-wrap_text p:nth-child(2) {
+  padding: 15px 15px;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+@media (max-width: 504px) {
+  .price .price_text-wrap .text-wrap_text p:nth-child(2) {
+    padding: 7px 7px;
+  }
+}
+@media (max-width: 425px) {
+  .price .price_text-wrap .text-wrap_text p:nth-child(2) {
+    padding: 4px 4px;
+  }
+}
+.price .price_price-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 65px 85px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(245, 249, 255, 0.02);
+  border: 1px solid rgba(245, 249, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 15px;
+  max-width: 1090px;
+}
+@media (max-width: 768px) {
+  .price .price_price-wrap {
+    padding: 27px 19px;
+  }
+}
+.price .price_price-wrap .price_price-string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0 0;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 26px;
+}
+@media (max-width: 768px) {
+  .price .price_price-wrap .price_price-string {
+    margin: 20px 0 0;
+  }
+}
+.price .price_price-wrap .price_price-string p {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #F5F9FF;
+  width: 30%;
+}
+@media (max-width: 1024px) {
+  .price .price_price-wrap .price_price-string p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .price .price_price-wrap .price_price-string p {
+    font-size: 16px;
+    width: 35%;
+  }
+}
+@media (max-width: 504px) {
+  .price .price_price-wrap .price_price-string p {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .price .price_price-wrap .price_price-string p {
+    font-size: 12px;
+  }
+}
+.price .price_price-wrap .price_price-string p b {
+  color: rgba(245, 249, 255, 0.27);
+  margin-right: 30px;
+}
+@media (max-width: 1274px) {
+  .price .price_price-wrap .price_price-string p b {
+    display: none;
+  }
+}
+.price .price_price-wrap .price_price-string p:nth-child(3) {
+  width: 40%;
+  text-align: left;
+}
+@media (max-width: 1274px) {
+  .price .price_price-wrap .price_price-string p:nth-child(3) {
+    text-align: right;
+  }
+}
+@media (max-width: 768px) {
+  .price .price_price-wrap .price_price-string p:nth-child(3) {
+    width: 30%;
+  }
+}
+@media (max-width: 504px) {
+  .price .price_price-wrap .price_price-string p:nth-child(3) {
+    width: 25%;
+  }
+}
+.price .price_price-wrap .price_price-string p:nth-child(2) {
+  text-align: center;
+}
+@media (max-width: 504px) {
+  .price .price_price-wrap .price_price-string p:nth-child(2) {
+    width: 25%;
+  }
+}
