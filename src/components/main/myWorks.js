@@ -14,7 +14,7 @@ import enter from '../../sourse/image/enter.png'
 
 export default function MyWorks(){
     return(
-        <div className="myWorks">
+        <div className="myWorks" id='work'>
                <div className="myWorks_works">
                     <img src={mainsite} alt="" /><img src={mainsite} alt="" /><img src={mainsite} alt="" />
                     <BottomNav name="KREPKO Premium" season="Зима 2021" types="Landing Page"/>

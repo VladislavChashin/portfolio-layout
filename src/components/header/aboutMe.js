@@ -1,9 +1,24 @@
 import body from '../../sourse/image/body.svg'
 import vector from '../../sourse/image/Vector.svg'
+import { useState, useEffect } from 'react'
 
 export default function AboutMe (){
+    const [scroll, setScroll] = useState(0)
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+    const handleScroll = () => {
+        setScroll(window.scrollY);
+    };
+
+    const divStyle = {
+        padding: `${400-scroll}px 0 ${332-(scroll/6)}px`,
+      };
+
+
     return(
-        <div className="aboutMe">
+        <div className="aboutMe" style={divStyle} id='aboutMe'>
             <div className="aboutMe_image">
                 <img src={body} alt="" />
                 <div className="image_text">

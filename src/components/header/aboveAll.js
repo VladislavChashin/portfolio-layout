@@ -2,6 +2,7 @@ import face from '../../sourse/image/head.svg'
 import vector from '../../sourse/image/Vector.svg'
 import vector1 from '../../sourse/image/Vector1.svg'
 import strelka from '../../sourse/image/strelka.svg'
+import { Link } from 'react-scroll';
 export default function AboveAll(){
     return(
         <>
@@ -23,13 +24,13 @@ export default function AboveAll(){
                 <div className="above-all_nav">
                     <nav>
                         <ul>
-                            <li><a href="">Работы</a></li>
-                            <li><a href="">Обо мне</a></li>
-                            <li><a href="">Контакты</a></li>
+                            <li><Link to="work" spy={true} smooth={true}>Работы</Link> </li>
+                            <li><Link to="aboutMe" spy={true} smooth={true}>Обо мне</Link></li>
+                            <li><Link to="contacts" spy={true} smooth={true}>Контакты</Link></li>
                         </ul>
                     </nav>
                     <div className="nav_hover">
-                        <img src={strelka} alt="" />
+                        <Link to="aboutMe" smooth={true} duration={1000}><img src={strelka} alt="" /></Link> 
                     </div>
                 </div>
             </div>

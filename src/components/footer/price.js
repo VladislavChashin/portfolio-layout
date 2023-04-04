@@ -1,8 +1,35 @@
+import { useState, useEffect, useRef } from "react";
+
+
 export default function Price(){
+    const ref = useRef();
+    const [scroll, setScroll] = useState(0)
+    const [rects, setRects] = useState(null)
+
+    useEffect(() => {
+        const rect = ref.current.getBoundingClientRect();
+        handleRef(rect.y)
+      });
+      const handleRef = (y) => {
+        setRects(y);
+        console.log(rects);
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+    const handleScroll = () => {
+        setScroll(window.scrollY);
+    };
+
+    const divStyle = {
+        transform: `translateX(${(rects - scroll/5.5)}px)`,
+      };
+
     return(
         <div className="price">
             <div className="price_text-wrap">
-                <div className="text-wrap_text">
+                <div className="text-wrap_text" ref={ref} style={divStyle}>
                     <p>СОЗДАЮ </p> <p> УНИКАЛЬНЫЕ РЕШЕНИЯ </p>  <p> ДЛЯ ВАШЕГО ПРОЕКТА</p>
                 </div>    
             </div>
