@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-layout/static/css/main.f65f8961.css",
-    "main.js": "/portfolio-layout/static/js/main.8ad4d75b.js",
+    "main.css": "/portfolio-layout/static/css/main.dcc371e4.css",
+    "main.js": "/portfolio-layout/static/js/main.d66833ec.js",
     "static/js/787.6f5cdfff.chunk.js": "/portfolio-layout/static/js/787.6f5cdfff.chunk.js",
     "static/media/big-mobile-portfolio.png": "/portfolio-layout/static/media/big-mobile-portfolio.c38b4f578ca0d33adc27.png",
     "static/media/lending.jpg": "/portfolio-layout/static/media/lending.90aa3ac196fc3178c93b.jpg",
@@ -25,16 +25,17 @@
     "static/media/SFProDisplay-Regular.woff2": "/portfolio-layout/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
     "static/media/cy-grotesk-grand-dark.otf": "/portfolio-layout/static/media/cy-grotesk-grand-dark.b3df9f9044ed77ae778e.otf",
     "static/media/sp-tekhnolog3.png": "/portfolio-layout/static/media/sp-tekhnolog3.3011db070415f15b4cc1.png",
+    "static/media/mes.svg": "/portfolio-layout/static/media/mes.1dc0004507b5ec200960f15658616f56.svg",
     "static/media/Vector1.svg": "/portfolio-layout/static/media/Vector1.c0308e6898654e6808b9e8b0db9cc995.svg",
     "static/media/Vector.svg": "/portfolio-layout/static/media/Vector.61693263e6dd4bff0b4f9b550cf117a7.svg",
     "index.html": "/portfolio-layout/index.html",
     "static/media/strelka.svg": "/portfolio-layout/static/media/strelka.d38a0bad050bbf3f8fec16c35db71333.svg",
-    "main.f65f8961.css.map": "/portfolio-layout/static/css/main.f65f8961.css.map",
-    "main.8ad4d75b.js.map": "/portfolio-layout/static/js/main.8ad4d75b.js.map",
+    "main.dcc371e4.css.map": "/portfolio-layout/static/css/main.dcc371e4.css.map",
+    "main.d66833ec.js.map": "/portfolio-layout/static/js/main.d66833ec.js.map",
     "787.6f5cdfff.chunk.js.map": "/portfolio-layout/static/js/787.6f5cdfff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f65f8961.css",
-    "static/js/main.8ad4d75b.js"
+    "static/css/main.dcc371e4.css",
+    "static/js/main.d66833ec.js"
   ]
 }
