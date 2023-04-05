@@ -1,19 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { store } from './store'
+import { Provider } from 'react-redux'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './sourse/fonts/stylesheet.css';
 import './sourse/style/reset.css';
-import './sourse/style/aboutMe.css';
-import './sourse/style/aboveAll.css';
-import './sourse/style/myWorks.css';
-import './sourse/style/price.css';
-import './sourse/style/contacts.css';
+import './sourse/style/aboutMe.scss';
+import './sourse/style/aboveAll.scss';
+import './sourse/style/myWorks.scss';
+import './sourse/style/price.scss';
+import './sourse/style/contacts.scss';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode >
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 

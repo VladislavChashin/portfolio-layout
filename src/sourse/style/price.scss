@@ -1,0 +1,141 @@
+.price{
+    max-width: 1260px;
+    margin: 0 auto;
+    color: #F5F9FF;
+    &.dark{
+        color: #000000;
+    }
+    @media(max-width: 1212px){
+        justify-content: center;
+        margin: 0 10px;
+    }
+    .price_text-wrap{
+        position: relative;
+        width: 90vw;
+        .text-wrap_text{
+            font-family: 'SFUIText-Light';
+            font-size: 72px;
+            line-height: 86px;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            margin: 0 0 150px;
+            @media(max-width: 1212px){
+                margin: 150px 0;
+            }
+            @media(max-width: 1024px){
+                font-size: 60px;
+            }
+            @media(max-width: 768px){
+                font-size: 50px;
+            }
+            @media(max-width: 504px){
+                font-size: 48px;
+                margin: 70px 0;
+            }
+            @media(max-width: 425px){
+                font-size: 36px;
+                margin: 50px 0;
+            }
+            &.dark{
+                p:nth-child(2){
+                    border: 1px solid #000000;
+                }
+            }
+            p:nth-child(2){
+                padding: 15px 15px;
+                border: 1px solid #FFFFFF;
+                border-radius: 20px;
+                margin: 0 10px;
+                @media(max-width: 504px){
+                    padding: 7px 7px;
+                }
+                @media(max-width: 425px){
+                    padding: 4px 4px;
+                }
+            }
+        }
+    }
+    .price_price-wrap{
+        display: flex;
+        padding: 65px 85px;
+        flex-direction: column;
+        background: rgba(245, 249, 255, 0.02);
+        border: 1px solid rgba(245, 249, 255, 0.2);
+        backdrop-filter: blur(5px);
+        border-radius: 15px;
+        max-width: 1090px;
+        &.dark{
+            border: 1px solid #00000053;
+            .price_price-string{
+                border-bottom: 1px solid #000000;
+                b{
+                    color: #00000053;
+                }
+            }
+        }
+        @media(max-width: 768px){
+                padding: 27px 19px;
+        }
+
+        .price_price-string{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px 0 0;
+            border-bottom: 1px solid #FFFFFF;
+            padding-bottom: 26px;
+            @media(max-width: 768px){
+                margin: 20px 0 0;
+            }
+            p{
+                font-family: 'SFUIText-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 33px;
+                width: 30%;
+                @media(max-width: 1024px){
+                    font-size: 20px;
+                }
+                @media(max-width: 768px){
+                    font-size: 16px;
+                    width: 35%;
+                }
+                @media(max-width: 504px){
+                    width: 50%;
+                }
+                @media(max-width: 425px){
+                    font-size: 12px;
+                }
+
+                b{
+                    color: rgba(245, 249, 255, 0.27);
+                    margin-right: 30px;
+                    @media(max-width: 1274px){
+                        display: none;
+                    }
+                }
+                &:nth-child(3){
+                    width: 40%;
+                    text-align: left;
+                    @media(max-width: 1274px){
+                     text-align: right;
+                    }
+                    @media(max-width: 768px){
+                        width: 30%;
+                    }
+                    @media(max-width: 504px){
+                        width: 25%;
+                    }
+                }
+                &:nth-child(2){
+                    text-align: center;
+                    @media(max-width: 504px){
+                        width: 25%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,8 +1,11 @@
 import body from '../../sourse/image/body.svg'
 import vector from '../../sourse/image/Vector.svg'
 import { useState, useEffect } from 'react'
+import { useSelector } from 'react-redux';
 
 export default function AboutMe (){
+    const darkMode = useSelector((state) => state.counter.value)
+
     const [scroll, setScroll] = useState(0)
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
@@ -18,7 +21,7 @@ export default function AboutMe (){
 
 
     return(
-        <div className="aboutMe" style={divStyle} id='aboutMe'>
+        <div className={ darkMode ? "aboutMe dark": "aboutMe"} style={divStyle} id='aboutMe'>
             <div className="aboutMe_image">
                 <img src={body} alt="" />
                 <div className="image_text">

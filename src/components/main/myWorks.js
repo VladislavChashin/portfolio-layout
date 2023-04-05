@@ -11,10 +11,13 @@ import mobilePortfolio2 from '../../sourse/image/mobile-portfolio2.png'
 import mobilePortfolio3 from '../../sourse/image/mobile-portfolio3.png'
 import kards from '../../sourse/image/kards.png'
 import enter from '../../sourse/image/enter.png'
+import { useSelector } from 'react-redux';
 
 export default function MyWorks(){
+    const darkMode = useSelector((state) => state.counter.value)
+
     return(
-        <div className="myWorks" id='work'>
+        <div className={ darkMode ? "myWorks dark": "myWorks"} id='work'>
                <div className="myWorks_works">
                     <img src={mainsite} alt="" /><img src={mainsite} alt="" /><img src={mainsite} alt="" />
                     <BottomNav name="KREPKO Premium" season="Зима 2021" types="Landing Page"/>
@@ -33,15 +36,15 @@ export default function MyWorks(){
                 </div> 
                  <div className="myWorks_works">
                     <img src={mobilePortfolio1} alt="" /><img src={mobilePortfolio2} alt="" /><img src={bigMobPortfolio} alt="" /><img src={mobilePortfolio3} alt="" />
-                    <BottomNav name="MaysLab" season="Лето 2021" types="Landing Page"/>
+                    <BottomNav name="MaysLab" season="Лето 2021" types="Landing Page" hrefs="https://www.behance.net/gallery/125038527/Landing-page-for-design-studio"/>
                 </div> 
                 <div className="myWorks_works">
                     <img src={kards} alt="" />
-                    <BottomNav name="Katit " season="Осень 2021" types="Branding"/>
+                    <BottomNav name="Katit " season="Осень 2021" types="Branding" hrefs="https://www.behance.net/gallery/123914807/Branding-Katit"/>
                 </div> 
                 <div className="myWorks_works">
                     <img src={enter} alt="" />
-                    <BottomNav name="Enter Digital" season="Осень 2021" types="Branding"/>
+                    <BottomNav name="Enter Digital" season="Осень 2021" types="Branding"  hrefs="https://www.behance.net/gallery/127848875/Brand-identity-Enter" />
                 </div> 
         </div>
     )
@@ -51,7 +54,7 @@ function BottomNav(props){
     return (
         <div className="bottom_nav">
             <div className="nav_button-hover">
-                <a href="">Ознакомиться</a>
+                <a href={props.hrefs} target="_blank">Ознакомиться</a>
             </div>
             <div className="nav_text">
                 <p>{props.name}</p>

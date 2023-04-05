@@ -3,10 +3,14 @@ import vector from '../../sourse/image/Vector.svg'
 import vector1 from '../../sourse/image/Vector1.svg'
 import strelka from '../../sourse/image/strelka.svg'
 import { Link } from 'react-scroll';
+import { useSelector } from 'react-redux';
+
 export default function AboveAll(){
+    const darkMode = useSelector((state) => state.counter.value)
+
     return(
         <>
-            <div className="above-all">
+            <div className={darkMode ? "above-all dark": "above-all"}>
                 <div className="above-all_text">
                     <h1>UI/UX & Web Designer</h1>
                     <div className="above-all_face">
@@ -29,7 +33,7 @@ export default function AboveAll(){
                             <li><Link to="contacts" spy={true} smooth={true}>Контакты</Link></li>
                         </ul>
                     </nav>
-                    <div className="nav_hover">
+                    <div className={darkMode ? "nav_hover dark": "nav_hover"}>
                         <Link to="aboutMe" smooth={true} duration={1000}><img src={strelka} alt="" /></Link> 
                     </div>
                 </div>
