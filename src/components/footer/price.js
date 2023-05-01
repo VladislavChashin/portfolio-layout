@@ -15,7 +15,6 @@ export default function Price(){
       });
       const handleRef = (y) => {
         setRects(y);
-        console.log(rects);
     };
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
