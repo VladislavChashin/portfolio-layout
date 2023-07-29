@@ -12,8 +12,10 @@ export default function Price(){
     useEffect(() => {
         const rect = ref.current.getBoundingClientRect();
         handleRef(rect.y)
-      });
-      const handleRef = (y) => {
+        // console.log(rects)
+        console.log(window.innerHeight/2);
+    });
+    const handleRef = (y) => {
         setRects(y);
     };
     useEffect(() => {
@@ -25,7 +27,7 @@ export default function Price(){
     };
 
     const divStyle = {
-        transform: `translateX(${(rects - scroll/5.5)}px)`,
+        transform: `translateX(${(rects - (window.innerHeight / 1.8)) / 2}vw)`,
       };
 
     return(

@@ -33,9 +33,11 @@ export default function AboveAll(){
                             <li><Link to="contacts" spy={true} smooth={true}>Контакты</Link></li>
                         </ul>
                     </nav>
-                    <div className={darkMode ? "nav_hover dark": "nav_hover"}>
-                        <Link to="aboutMe" smooth={true} duration={1000}><img src={strelka} alt="" /></Link> 
-                    </div>
+                    <Link to="aboutMe" smooth={true} duration={1000}>
+                        <div className={darkMode ? "nav_hover dark": "nav_hover"}>
+                            <img src={strelka} alt="" />
+                        </div>
+                    </Link> 
                 </div>
             </div>
         </>

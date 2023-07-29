@@ -15,6 +15,7 @@
     .above-all_text{
         display: flex;
         position: relative;
+        width: 90%;
         h1{
             font-family: 'SFUIText-Italic';
             font-size: 200px;
@@ -25,7 +26,7 @@
                 font-size: 180px;
             }
             @media(max-width: 1100px){
-                font-size: 150px;
+                font-size: 145px;
                 line-height: 140px;
             }
             @media(max-width: 873px){
@@ -36,10 +37,24 @@
                 font-size: 100px;
                 line-height: 90px;
             }
-            @media(max-width: 414px){
-                font-size: 72px;
+            @media(max-width: 640px){
+                font-size: 80px;
                 line-height: 80px;
             }
+            @media(max-width: 525px){
+                font-size: 72px;
+                line-height: 70px;
+            }
+            @media(max-width: 525px){
+                font-size: 60px;
+                line-height: 60px;
+            }
+            @media(max-width: 420px){
+                font-size: 40px;
+                line-height: 60px;
+            }
+            
+
             
         }
         .above-all_face{
